@@ -1,0 +1,130 @@
+/* Geneeral Styles */
+html {
+  font-size: 14px;
+}
+
+body {
+  background: hsl(30, 38%, 92%);
+  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  width: 100%;
+  max-height: 240px;
+}
+
+figure {
+  width: 100%;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "Fraunces", serif;
+  font-size: 2.25em;
+  line-height: 1em;
+  margin: 0;
+}
+
+h2 {
+  color: hsl(158, 36%, 37%);
+  width: 42%;
+  margin: 0;
+}
+
+.content-wrapper {
+  width: 90%;
+  height: 90%;
+  max-width: 350px;
+  display: flex;
+  flex-flow: column;
+  margin-top: 15px;
+}
+
+/* Main */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main article {
+  background: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  border-radius: 0 0 10px 10px;
+}
+
+main .product-img-fig {
+  height: 240px;
+}
+
+main .product-img {
+  border-radius: 10px 10px 0 0;
+}
+
+main .product-info {
+  height: 370px;
+  width: 85%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+main .product-info p {
+  color: hsl(228, 12%, 48%);
+}
+
+#perfume {
+  letter-spacing: 5px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  padding: 24px 0 0 0;
+}
+
+main article p {
+  margin: 0;
+  line-height: 1.7;
+  max-width: 296px;
+}
+
+.crossed-price {
+  text-decoration: line-through;
+  width: 50%;
+  padding: 5px 0 0 20px;
+}
+
+.product-info button {
+  width: 100%;
+  height: 48px;
+  background: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  border-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.product-info button figure {
+  width: 16px;
+  height: 16px;
+}
+
+.product-info button p {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 6px 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
